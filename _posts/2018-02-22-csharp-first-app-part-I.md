@@ -152,7 +152,7 @@ It will instantiate a `CarService` and store it on its declared field.
 Feel free to create any additional method (private in this case) that could help you with the public ones defined above.
 
 #### CustomersManager Class
-This class contains all the logic related to Cars management.
+This class contains all the logic related to Customers management.
 
 ##### CustomersManager Fields and Properties
 - It will have a field of type `CustomerService`
@@ -168,7 +168,7 @@ It will instantiate a `CustomerService` and store it on its declared field.
 Feel free to create any additional method (private in this case) that could help you with the public ones defined above.
 
 #### RentalsManager Class
-This class contains all the logic related to Cars management.
+This class contains all the logic related to Rentals management.
 
 ##### RentalsManager Fields and Properties
 - It will have a field of type `CarsManager`
@@ -176,7 +176,7 @@ This class contains all the logic related to Cars management.
 - List of Rentals
 
 ##### RentalsManager Constructor
-It will instantiate a `CarsManager`, `CustomersManager` and store it on its declared field. It will also instantiate the Rentals List.
+Will receive an instance of `CarsManager` and `CustomersManager` and store it on its declared field. It will also instantiate the Rentals List.
 **Remember that we don't have Storage yet, but, in the case of the Rentals, we won't even have in this first version initial fake data.**
 
 ##### RentalsManager Methods
