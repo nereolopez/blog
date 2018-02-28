@@ -2,7 +2,7 @@
 layout: post
 title:  "C# Collections"
 date:   2018-02-26 07:00:00 +0100
-categories: csharp collections
+categories: software development
 ---
 Let's think of Collections as a group of related objects. So far we've seen arrays, which are useful to work with a fixed number of strongly-typed objects.
 
