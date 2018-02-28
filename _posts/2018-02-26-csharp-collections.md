@@ -119,7 +119,7 @@ Let's review now some of the most common methods of a Dictionary (see the [offic
 # Queue
 A `Queue` represents a first-in first-out (FIFO) colletion. This means that when we remove something from the collection, it is the oldest element the one that will be removed.
 
-![image.png](.attachments/image-2c4519ce-0ab1-493f-b754-fc85280d9a05.png)
+![queue.png]({{"/assets/queue.png"}})
 
 As depicted above, from the right we are adding numbers. When the 1 is added it goes to the beginning (first slot) of the Queue. When we remove something from the Queue, the element at the beginning of the Queue is the one removed and the others are moved one position to the beginning of the Queue. For example, if we remove one number from the Queue above, the 1 will be removed and the 2 will be then in the beginning of the Queue.
 
@@ -143,7 +143,7 @@ Let's review some of the most common methods for a `Queue`.
 # Stack
 This is the opposite to a `Queue`, which means that is a last-in first-out (LIFO) collection.
 
-![image.png](.attachments/image-872f1352-d403-4e63-8626-7f8298da76de.png)
+![stack.png]({{"/assets/stack.png"}})
 
 As depicted above, the `Stack` can be thought as a pile of elements. Whenever we push something into it from the top, it falls directly to the bottom. As the only place from where we can add or remove anything is the top, the last element that entered into the `Stack` will be the first one removed.
 
