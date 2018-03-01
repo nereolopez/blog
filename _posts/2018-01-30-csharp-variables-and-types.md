@@ -14,7 +14,7 @@ To be able to work with information that we will need throught our application, 
 
 Variables have to be typed (this means that we need to specify which type they will represent). There are two kind of types: `Value Types` and `Reference Types`.
 
-# Value Types
+## Value Types
 Variables that are based on Value Types directly contain values. These are the Value Types built-in inside .Net:
 
 - **bool**: this is a logical Value Type. Either it is `true` or `false`.
@@ -33,7 +33,7 @@ Variables that are based on Value Types directly contain values. These are the V
 - **ulong**: it is an **unsigned** 64-bit integer. Its range goes from 0 to 18,446,744,073,709,551,615.
 - **ushort**: it is an **unsigned** 16-bit integer. Its range goes from 0 to 65,535.
 
-# Reference Types
+## Reference Types
 We mentioned before that Value Types directly contain data. Reference Types, on the other hand, store references to their data (objects). This means that, with Reference Types, two variables can reference the same object, meaning that operations from one variable will affect the object referenced by the other variable.
 
 We will mention all of them so far, but only explain two that are interesting for us right now:
@@ -45,10 +45,10 @@ We will mention all of them so far, but only explain two that are interesting fo
 - **object**: this is a bit of special. All types, both predefined and user-defined, either reference or value types, inherit from 'Object'. We can assign values of any type to it. When a variable of Value Type is converted to it it is said to be `boxed`. And when it happens the other way around it is said to be `unboxed`.
 - **string**: it represents a sequience of characters. Short said: text.
 
-# Variables
+## Variables
 We already discussed a bit before about variables and described them as the in-memory slots where we will place temporary information. We also mentioned that they have to be typed, so let's discuss them a bit ore in-depth.
 
-## Variables declaration
+### Variables declaration
 C# needs you to declare a variable before being able to use it. To declare a variable, we just need to say which type of data it will contain, and then give it a name. 
 
 *Note that every statement in C# ends with a semicolon `;`.*
@@ -60,7 +60,7 @@ What we just did here was to declare an integer variable named *i*.
 
 *Good naming is very important to help others (and ourselves) understand the code. `i`might not be that meaningful if we are trying to store someone's age, `age` would be a more conveniant name for that variable in that case.*
 
-## Variable Assignment
+### Variable Assignment
 Once declared then we can use them. To assign a value to a variable we use the `=` operator and then the value on the right side of the expression.
 ```csharp
 int age;
@@ -73,21 +73,21 @@ Declaration and value assignment can happen at once if we already know the value
 int age = 20;
 ```
 
-## bool Variables
+### bool Variables
 `bool` variables can contain, as said, either `true` or `false`. This means that they are great to use for evaluating expressions and work with conditions. 
 
 ```csharp
 bool isRaining= true;
 ```
 
-## char Variables
+### char Variables
 They can contain a character. To assign a character value we need to use single quotes `'`.
 
 ```csharp
 char firstLetter = 'a';
 ```
 
-### Char methods
+#### Char methods
 Something not mentioned so far (and that applies to the other types too) is that `char` is an alias of `Char` ( in the same way that `bool`is an alias of `Boolean`, and so on).
 
 `Char` object has some useful methods that are listed below:
@@ -107,20 +107,20 @@ Something not mentioned so far (and that applies to the other types too) is that
 - ToLower()
 - ToString()
 
-## int Variables
+### int Variables
 As said, it represents a signed integer, and we even had an example for it before with the age. It is possible to convert other types into `int`. we can just put `(int)` before the other value, or use the `Convert.ToInt32()` function. Keep in 
 
 ```
 temperature = (int)25.5;      // in this case the decimal part will be lost, therefore, temperature will be 25.
 temperature = Convert.ToInt32("25") ; // we are converting a string into an integer. 
 ```
-## string Variables
+### string Variables
 We've already seen that we can shortly explain strings as text. Therefore, we could have a string variable as follows, just assigning a literal with double within quotes `" "` (note that we could also use the String constructor, which we will skip for now):
 ```csharp
 string howToTriggerPeople = "Pineapple pizza is the best one";
 ```
 
-### string Operators
+#### string Operators
 We can work with strings using methods or operators. For instance, we can compare two strings with the comparison equal `==` or distinct `!=` operators.
 
 ```csharp
@@ -142,7 +142,7 @@ string greeting = "hello";
 char e = greeting[1];
 ```
 
-### null and empty strings
+#### null and empty strings
 When a string is declared but not given a value, its value is `null`. This is different from an empty string wich is represented as `""`. 
 To check if a string is `null` we can just use the `==` operator against the `null` keyword.
 
@@ -152,11 +152,11 @@ if (str == null)...
 ```
 For checking an empty string we will see it now while reviewing String's methods.
  
-### String Fields and Properties
+#### String Fields and Properties
 - **Emtpy** (field): Represents the empty string. We could compare against it to check if a string is empty.
 - **Length** (property): Returns the length of the string (how many characters it has).
 
-### String Methods
+#### String Methods
 We will review just a few, for the whole reference, check [here](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.7.1#Methods)
 
 - **Concat()**: concatenates two given strings.
@@ -174,7 +174,7 @@ We will review just a few, for the whole reference, check [here](https://docs.mi
 - **ToUpper()**: converts the string to all upper case.
 - **Trim()**: removes all white spaces in the string (or a given characther if passed).
 
-### Immutability and StringBuilder
+#### Immutability and StringBuilder
 A `String` object is immutable, meaning that its value cannot be modified once it is created. Therefore, all methods that seem to modify it, are actually returning a `String` object containing the modifications.
 
 This means that if we perform too many operations on a string, we are lowering performance. For cases when we need to do several operations on a string we should use the `StringBuilder` class instead.
@@ -187,14 +187,14 @@ sentence.Length;      // returns 11
 sentence.ToString();  // converts it to a string 
 ```
 
-# DateTime
+## DateTime
 Even though `DateTime` is a `Struct`, let's see it separately. Again, we can directly assing it a value or use its constsructor. Let's assign our `DateTime` variable a value using one of the struct's properties:
 
 ```csharp
 DateTime now = DateTime.Now;
 ```
 
-## DateTime Properties
+### DateTime Properties
 Let's review some of the DateTime properties. You can see the full list [here](https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=netframework-4.7.1#Properties).
 
 - **Date**: gets the date of the instance.
@@ -209,7 +209,7 @@ Let's review some of the DateTime properties. You can see the full list [here](h
 - **Today**: gets the current date.
 - **Year**: gets the year of the instance.
 
-## DateTime Methods
+### DateTime Methods
 Let's review some of the DateTime methods. You can see the full list [here](https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=netframework-4.7.1#Methods).
 
 - Add()
@@ -229,7 +229,7 @@ Let's review some of the DateTime methods. You can see the full list [here](http
 - ToShortTimeString()
 - ToString()
 
-## DateTime Operators
+### DateTime Operators
 Let's review some of the DateTime operators. You can see the full list [here](https://docs.microsoft.com/en-us/dotnet/api/system.datetime?view=netframework-4.7.1#Operators).
 
 - Addition
@@ -239,7 +239,7 @@ Let's review some of the DateTime operators. You can see the full list [here](ht
 - LessThanOrEqual
 - Substraction
 
-# Exercises
+## Exercises
 These exercises are meant to be done in a Console Application for simplicity. As a hint, whenever you find yourself needing to use a method, just pay attention to the intellisense. It will tell you the different possible overloads for the method (we'll come to overloads later in these series) so that you can choose the one that interests you the most.
 
 We will build a "user profile" only using variables and the I/O through the Console. For that:
