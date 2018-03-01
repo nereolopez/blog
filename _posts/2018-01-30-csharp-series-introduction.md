@@ -13,14 +13,14 @@ The code for the series is hosted on [this repo](https://github.com/nereolopez/c
 - Setting up the environment
 - Visual Studio Walkthrough
 - Source Control with Git
-- Variables and Types
-- Control Flow
-- Arrays
-- Exception Handling
-- Methods
-- Collections
-- LINQ
-- Classes
-- Encapsulation
-- Inheritance
-- First App (Part I)
+- [Variables and Types]({{ site.baseurl }}{% post_url 2018-01-30-csharp-variables-and-types %})
+- [Control Flow]({{ site.baseurl }}{% post_url 2018-01-31-csharp-control-flow %})
+- [Arrays]({{ site.baseurl }}{% post_url 2018-02-06-csharp-arrays %})
+- [Exception Handling]({{ site.baseurl }}{% post_url 2018-02-08-csharp-exception-handling %})
+- [Methods]({{ site.baseurl }}{% post_url 2018-02-08-csharp-methods %})
+- [Collections]({{ site.baseurl }}{% post_url 2018-02-13-csharp-collections %})
+- [LINQ]({{ site.baseurl }}{% post_url 2018-02-15-csharp-linq %})
+- [Classes]({{ site.baseurl }}{% post_url 2018-02-20-csharp-classes %})
+- [Encapsulation]({{ site.baseurl }}{% post_url 2018-02-22-csharp-encapsulation %})
+- [Inheritance]({{ site.baseurl }}{% post_url 2018-02-22-csharp-inheritance %})
+- [First App (Part I)]({{ site.baseurl }}{% post_url 2018-02-23-csharp-first-app-part-I %})
