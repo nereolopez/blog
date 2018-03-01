@@ -4,7 +4,6 @@ title:  "C# Encapsulation"
 date:   2018-02-22 07:00:00 +0100
 categories: software development
 ---
-# Encapsulation
 We already saw what a `Class` is, what its `Members` are and the Access Modifiers. Now let's combine the three of them to talk about Encapsulation.
 
 We said before that objects have data and behavior. Now we will see how to procetc that data and control the access to certain parts of our objects by encapsulating them.

@@ -6,8 +6,6 @@ categories: software development
 ---
 So far we've only tested the "happy path". We always trusted that the user's input was going to be correct. We always trasted that casting would give no errors, but, that's not the way to go. 
 
-#The Exception
-
 An `Exception` is an error that happens at runtime and is propagated through the program. If nobody (no part of our code) handles that exception, then the execution of the program breaks. It is a class inside the `System` namespace. 
 
 ## Exception Properties
@@ -85,5 +83,5 @@ if (name == null)
 - Do not throw `Exception`, `SystemException`, `NullReferenceException` or `IndexOutOfRangeException` from your source code.
 - Do not create Exceptions that can be only thrown in debug mode but not in release mode.
 
-# Creating Exception Classes
+## Creating Exception Classes
 For now, let's say that it is possible for us to create our own Exception Classes. [Later on we will see classes]() (not available yet). Once we are familiar with classes we can start thinking about creating our own.

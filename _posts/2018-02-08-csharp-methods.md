@@ -4,8 +4,6 @@ title:  "C# Methods"
 date:   2018-02-08 08:00:00 +0100
 categories: software development
 ---
-# Methods
-
 A method is a code of block that containes one or more statement. Every executed instruction in C# is run within the context of a method. Methods can be declared in a `class` or a `struct`.
 
 ## Method Signature ##
@@ -107,7 +105,7 @@ public void Greet(string name){
 ## Async
 We mention it here just to be aware that we can make Functions to run code asynchronously, but we will discuss it later in our [Async Programming session]() (not yet available).
 
-# Exercises
+## Exercises
 1. Create a main function that:
     1. Fills up an array of 5 numbers getting the numbers from a function that generates them randomly between 0 and 100.
     2. Calls a function that given an array (no matter its size) displays all its elements. 

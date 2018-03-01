@@ -10,8 +10,6 @@ Collections' size is dynamic, meaning that collections can grow or shrink at any
 
 Keep in mind that a `Collection` is a `Class`, which means that it has to be instantiated using the `new` keyword. But [we will see more on classes later]({{ site.baseurl }}{% post_url 2018-02-20-csharp-classes %}) .
 
-# Overview
-
 ## Common Properties and Methods
 Let's not forget that there can be several representations for a collection. Each of them implements the `ICollection<T>` interface, which grants that they will have some common Properties and Methods. Don't worry to much about interfaces now, as [we will see them later]()(not yet available).
 
@@ -162,7 +160,7 @@ var numbers = new Stack<int>();
 - **Push(T)**: inserts an element to the top of the Stack.
 - **ToArray()**: copies the elements to an `array`.
 
-#Exercises
+## Exercises
 1. Create a List of 50 numbers and fill it with 25 randomly generated numbers
     1. Do not add numbers that already exist.
     2. Sort the numbers in the List from lowest to highest.

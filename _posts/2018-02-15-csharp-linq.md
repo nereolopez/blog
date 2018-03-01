@@ -4,8 +4,6 @@ title:  "C# LINQ"
 date:   2018-02-15 07:00:00 +0100
 categories: software development
 ---
-# LINQ
-
 What is it? It stands for Language INtegrated Query. Its name is pretty descriptive, so, as you migh have guessed already, it gives us the capacity to use Queries within the language itself, in this case, C#.
 
 There are three parts for a LINQ operation:
@@ -152,7 +150,7 @@ There are many operators that can be used with LINQ. You can check the official 
 - **TakeLast**
 - **TakeWhile**
 
-# Exercises
+## Exercises
 
 1. Queries Exercises:
     1. Create a `class` Month with three Properties: Name, Season and Number of Days 

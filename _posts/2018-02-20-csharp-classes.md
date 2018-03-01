@@ -4,7 +4,6 @@ title:  "C# Classes"
 date:   2018-02-20 07:00:00 +0100
 categories: software development
 ---
-# Class
 A `class` allows us to create a our own custom Type by grouping together fields, methods and events. It is like creating a blueprint of an object where we can define its data and behavior.
 
 ```csharp
@@ -176,5 +175,5 @@ When it comes to make code readable, you would probably want to order the code w
 - Order each of the categories above by accessibility, from the more accessible (`public`) to the less one (`private`).
 - Only one class (or object) per file.
 
-# Exercises
+## Exercises
 1. Create a class representing the User profile from the [Variables and Types session exercises](https://nereolopezblog.wordpress.com/2018/01/30/c-variables-and-types/) and adapt the profile creation to use the class instead.  You must follow all the rules described in the exercise mentioned right now and also in the [Control Flow session exercises](https://nereolopezblog.wordpress.com/2018/01/31/c-control-flow/).

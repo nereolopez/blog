@@ -4,7 +4,6 @@ title:  "C# Arrays"
 date:   2018-02-06 07:00:00 +0100
 categories: software development
 ---
-# Arrays
 
 What is an array? An array is a collection or group of things of the same kind. For instance, the winning numbers of the lottery. They are all of the same type and have a relationship between them.
 
@@ -138,7 +137,7 @@ Console.WriteLine("Let's see what month position 2, 1 returns: " + monthsBySeaso
 ```
 Notice that opposite to the Multidimensional Arrays, to access an element we used more than one pair of brackets, like `[2][1]` in the example above. 
 
-# Exercises
+## Exercises
 1. Create an array with all the Months.
     1. Show on screen how many months are in the array.
     2. Show on screen all the months that contain an 'o'.

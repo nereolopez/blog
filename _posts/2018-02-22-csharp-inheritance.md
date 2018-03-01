@@ -4,8 +4,6 @@ title:  "C# Inheritance"
 date:   2018-02-22 08:00:00 +0100
 categories: software development
 ---
-# Inheritance
-
 Same way as you are smart, or good-looking, or good at sports, or good at music, have a nationality, a culture (and so on) in part because of you, and in part because you inherited those capabilities and attributes from your parents, the same can be applied in Object Oriented Programming. We saw one of the properties of OOP (encapsulation), and now we will learn about inheritance.
 
 With inheritance we can create new classes that reuse, extend or even modify the behavior defined in another class.
@@ -77,7 +75,7 @@ class Son: Mother {
 }
 ```
 
-# Exercises
+## Exercises
 You will have to decide how to apply all the concepts we discussed about inheritance, if you need abstract classes or members, what should be virtual, what should override, etc.
 
 1. Create a Vehicle class with the following members:
