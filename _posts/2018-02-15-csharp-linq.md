@@ -4,6 +4,13 @@ title:  "C# LINQ"
 date:   2018-02-15 07:00:00 +0100
 categories: software development
 ---
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- LinqSamples.cs: where all the theory described here is shown.
+- LinqExercises.cs: where all the exercises at the end of this post are solved.
+
+## Introduction
 What is it? It stands for Language INtegrated Query. Its name is pretty descriptive, so, as you migh have guessed already, it gives us the capacity to use Queries within the language itself, in this case, C#.
 
 There are three parts for a LINQ operation:

@@ -4,7 +4,13 @@ title:  "C# Arrays"
 date:   2018-02-06 07:00:00 +0100
 categories: software development
 ---
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- Arrays.cs: where all the theory described here is shown.
+- ArraysExercises.cs: where all the exercises at the end of this post are solved.
 
+## Introduction
 What is an array? An array is a collection or group of things of the same kind. For instance, the winning numbers of the lottery. They are all of the same type and have a relationship between them.
 
 Arrays in C# have follow the principles below:

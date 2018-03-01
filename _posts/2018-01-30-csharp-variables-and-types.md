@@ -4,6 +4,14 @@ title:  "C# Variables and Types"
 date:   2018-01-30 08:00:00 +0100
 categories: software development
 ---
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- Types.cs: where all the theory described here is shown.
+- TypesExercises.cs: where all the exercises at the end of this post are solved.
+
+## Introduction
+
 Before beginning, let's see what `Types` are and which ones we can find built-in in .Net. 
 
 Programming, information is classified as in real life. When you ask someone her phone number, you don't assume it is text, or that it is a date; in your mind, you see numbers. In the same way, when they ask you your name when you arrive to a hotel, the employee registering the check-in automatically places her hands on the keyboard side where letters are placed, and not in the numeric pad.

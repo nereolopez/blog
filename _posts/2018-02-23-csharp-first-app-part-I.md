@@ -4,6 +4,10 @@ title:  "C# First App (Part I)"
 date:   2018-02-23 07:00:00 +0100
 categories: software development
 ---
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is under the [Car Rental Agency folder](https://github.com/nereolopez/csharp-intro/tree/master/CarRentalAgency).*
+
+## Introduction
 We will add a new project to our solution where we will create an app to put into practice all that we've learnt so far. Our application will be a Car Rental Agency Software Management.
 
 *Note: keep in mind that we will iterate over this application to add more things as we discuss more topics on C#, which means that some requirements might not be fulfilled right now.*

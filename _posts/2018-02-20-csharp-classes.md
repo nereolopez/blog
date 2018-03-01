@@ -4,6 +4,13 @@ title:  "C# Classes"
 date:   2018-02-20 07:00:00 +0100
 categories: software development
 ---
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- Classes.cs: where all the theory described here is shown.
+- ClassesExercises.cs: where all the exercises at the end of this post are solved.
+
+## Introduction
 A `class` allows us to create a our own custom Type by grouping together fields, methods and events. It is like creating a blueprint of an object where we can define its data and behavior.
 
 ```csharp

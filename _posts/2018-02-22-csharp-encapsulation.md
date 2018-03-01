@@ -4,6 +4,12 @@ title:  "C# Encapsulation"
 date:   2018-02-22 07:00:00 +0100
 categories: software development
 ---
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- Encapsulation.cs: where all the theory described here is shown.
+
+## Introduction
 We already saw what a `Class` is, what its `Members` are and the Access Modifiers. Now let's combine the three of them to talk about Encapsulation.
 
 We said before that objects have data and behavior. Now we will see how to procetc that data and control the access to certain parts of our objects by encapsulating them.

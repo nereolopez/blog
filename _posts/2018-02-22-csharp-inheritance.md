@@ -4,6 +4,13 @@ title:  "C# Inheritance"
 date:   2018-02-22 08:00:00 +0100
 categories: software development
 ---
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- Inheritance.cs: where all the theory described here is shown.
+- InheritanceExercises.cs: where all the exercises at the end of this post are solved.
+
+## Introduction
 Same way as you are smart, or good-looking, or good at sports, or good at music, have a nationality, a culture (and so on) in part because of you, and in part because you inherited those capabilities and attributes from your parents, the same can be applied in Object Oriented Programming. We saw one of the properties of OOP (encapsulation), and now we will learn about inheritance.
 
 With inheritance we can create new classes that reuse, extend or even modify the behavior defined in another class.
