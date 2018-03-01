@@ -10,12 +10,12 @@ A method is a code of block that containes one or more statement. Every executed
 
 ## Method Signature ##
 To declarel a method we need the following elements in the following order:
-- **Access Modifiers**: `public`, `private`... [We will discuss more on this later]() (not yet available).
+- **Access Modifiers**: `public`, `private`... [We will discuss more on this later]({{ site.baseurl }}{% post_url 2018-02-20-csharp-classes %}).
 - **Type of return**: if the method does not return any value then it will be `void`, otherwise the type of the value we want to return (`int`, `bool`...).
 - **MethodName**: this is up to you. You can specify the name you like the most for the method. Make sure that it reflects what the method does.
 - **(parameters)**: the method name is followed by parentheses `()` than can have parameters inside.To specify that whoever calls our method shall pass us some arguments, we define the parameters by specifying their type and giving them a name.
 
-There are few more things we can add to the signature of a method, but [we will see them later]() (not yet available).
+There are few more things we can add to the signature of a method, but [we will see them later]({{ site.baseurl }}{% post_url 2018-02-22-csharp-inheritance %}).
 
 ```csharp
 public void Greet(string name){ // this line is the signature of our Greet method
