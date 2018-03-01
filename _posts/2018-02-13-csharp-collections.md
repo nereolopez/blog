@@ -8,7 +8,7 @@ Let's think of Collections as a group of related objects. So far we've seen arra
 
 Collections' size is dynamic, meaning that collections can grow or shrink at any time. Some kind of collections even allows us to assign a key to an object for easier retrieval. 
 
-Keep in mind that a `Collection` is a `Class`, which means that it has to be instantiated using the `new` keyword. But [we will see more on classes later]() (not yet available).
+Keep in mind that a `Collection` is a `Class`, which means that it has to be instantiated using the `new` keyword. But [we will see more on classes later]({{ site.baseurl }}{% post_url 2018-02-20-csharp-classes %}) .
 
 # Overview
 

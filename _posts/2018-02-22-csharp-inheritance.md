@@ -19,7 +19,7 @@ class DerivedClass : BaseClass{
 ```
 *Note the `:` which specifies that the DerivedClass inherits from the BaseClass.*
 
-The "parent" class is usually refert to as "base" class, and the one inheriting from it is known as "derived" class. When a class inherits from another, it means that it has by default the same attributes and capabilities as it can access everything in the base class. Well, **that's not true at all!**. Keep in mind that [Access Modifiers do exist as we've already seen in this session]() (not yet available). We will talk more on it soon.
+The "parent" class is usually refert to as "base" class, and the one inheriting from it is known as "derived" class. When a class inherits from another, it means that it has by default the same attributes and capabilities as it can access everything in the base class. Well, **that's not true at all!**. Keep in mind that [Access Modifiers do exist as we've already seen in this session]({{ site.baseurl }}{% post_url 2018-02-20-csharp-classes %}). We will talk more on it soon.
 
 Note the following two keywords:
 - `sealed`
@@ -54,7 +54,7 @@ As said before, by default we inherit everything as it is from the base class, b
 - **abstract**: when you mark a base class' member as `abstract` it **requires** that the derived class matching member overrides it.
 - **new** Modifier: when marking a derived class' member as `new` it completely hides the member from the base class.
 
-*See the [Code Sample]() (not yet available) for more details on this.*
+*See the [Code Sample](https://github.com/nereolopez/csharp-intro/blob/master/CsIntro/Inheritance.cs) for more details on this.*
 
 ## base Keyword
 We've already seen `this` keyword when speaking about how to reference members of the class we are in. We could use it in Derived classes to refer to members of the Base class because Base class members become part of the Derived class too implicitly. But, if we use `base` instead is more meaningful where in the code what we are referring to is.

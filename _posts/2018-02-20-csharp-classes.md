@@ -130,7 +130,7 @@ Math.Round(3.1415);
 A Static Class has the following features:
 - Contains only static members.
 - Cannot be instantiated.
-- It is sealed ([we will see later what this means]() (not yet available)).
+- It is sealed ([we will see later what this means]({{ site.baseurl }}{% post_url 2018-02-22-csharp-inheritance %}).
 - Cannot contain instance constructors.
 
 #### Static Member
@@ -168,7 +168,7 @@ We can define who is eligible to use our classes and their members by using on t
 - **protected internal**: the type or member can only be accessed by code in the same assembly, or from a derived class in another assembly.
 - **private internal**: the type or member can only be accessed by code in the same assembly, by code in the same class or in a derived type.
 
-*Note that to fully understand some of them you will need the information on the [session about inheritance]() (not yet available).*
+*Note that to fully understand some of them you will need the information on the [session about inheritance]({{ site.baseurl }}{% post_url 2018-02-22-csharp-inheritance %}).*
 
 ## Classes Best Practices
 When it comes to make code readable, you would probably want to order the code within your classes as follows:

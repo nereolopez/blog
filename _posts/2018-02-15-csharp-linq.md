@@ -66,7 +66,7 @@ where (number % 2 == 0) && (number > 10)
 ```
 
 ### Ordering
-Usually we will want to return the result of a query ordered by a specific Property. Do you remember what the `T` in `List<T`>` for example stands for? Yes, it represents the type. [We will see later how to create Custom Types]() (not yet available), but so far, let's imagine that instead having a list of integers we have a list of Users, being User a custom type that has some properties like name or age.
+Usually we will want to return the result of a query ordered by a specific Property. Do you remember what the `T` in `List<T>` stands for? Yes, it represents the type. [We will see later how to create Custom Types]({{ site.baseurl }}{% post_url 2018-02-20-csharp-classes %}), but so far, let's imagine that instead having a list of integers we have a list of Users, being User a custom type that has some properties like name or age.
 
 We will need the `orderby` keyword and we can use the `ascending` or `descending`as needed.
 
