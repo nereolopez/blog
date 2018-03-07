@@ -18,6 +18,7 @@ We will do the following in each of them:
 2. The methods the previous services have are to be created in the new ones.
 3. We will create the basic operations for each of them
     1. Write: Write each entry as a line and separate fields by semicolon `;`.
+    
     ```csharp
     // This is a Customer object in the application
     var customer = new Customer();
@@ -29,5 +30,6 @@ We will do the following in each of them:
     // This is how its line should be written in Customers.txt
     Bob;Robson;28/05/1980;436475J
     ```
+    
     2. Read: Each line represents an entry. Parse the line to the corresponding object and fill its properties while reading.
 4. Change the application in a way that it updates the files instead of the in-memory collections we were using so far(in other words, make sure the old services are not used any longer).
