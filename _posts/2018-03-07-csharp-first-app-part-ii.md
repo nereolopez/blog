@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C# First App (Part II)"
+title:  C# First App (Part II)
 date:   2018-03-07 08:00:00 +0100
 categories: software development
 ---
@@ -30,6 +30,6 @@ We will do the following in each of them:
     // This is how its line should be written in Customers.txt
     Bob;Robson;28/05/1980;436475J
     ```
-    
+
     2. Read: Each line represents an entry. Parse the line to the corresponding object and fill its properties while reading.
 4. Change the application in a way that it updates the files instead of the in-memory collections we were using so far(in other words, make sure the old services are not used any longer).
