@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 <div style="text-align:center; margin-bottom:30px;">
-    <img src="/assets/nereo-lopez.jpeg">
+    <img src="/assets/Nereo.jpg">
 </div>
 Hey, thanks for stopping by! My name is Nereo López and I am from Vigo, in Spain. I just arrived to the 30s, I am happily married with a passionate Designer, and have no children yet.
 
