@@ -4,19 +4,19 @@ title:  "C# Control Flow"
 date:   2018-01-31 07:00:00 +0100
 categories: software development
 ---
-*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
-The code relevant for this post is in the following files:*
-- Program.cs: entry point for the sample Console Application
-- ControlFlow.cs: where all the theory described here is shown.
-- ControlFlowExercises.cs: where all the exercises at the end of this post are solved.
-
-## Introduction
-
 You might have already noticed that, given an entry point for our application (the Main method in the Program class in our sample Console Application) we write lines of code that the computer runs one after the other, or, in other words, sequentially.
 
 ![Sequential Flow.PNG]({{"/assets/sequential-flow.png"}})
 
 But, sometimes, we might want to execute things in a different order based on what is going on dynamically in our application.
+
+<!--more-->
+
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- ControlFlow.cs: where all the theory described here is shown.
+- ControlFlowExercises.cs: where all the exercises at the end of this post are solved.
 
 ## Conditional Flow
 The Conditional Flow breaks that linear sequence of statements and forks it into one or multiple "timelines" based on the evaluation of a condition. Let's see the picture below for a better understanding:

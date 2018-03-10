@@ -4,15 +4,16 @@ title:  "C# Exception Handling"
 date:   2018-02-08 07:00:00 +0100
 categories: software development
 ---
+So far we've only tested the "happy path". We always trusted that the user's input was going to be correct. We always trasted that casting would give no errors, but, that's not the way to go. 
+
+An `Exception` is an error that happens at runtime and is propagated through the program. If nobody (no part of our code) handles that exception, then the execution of the program breaks. It is a class inside the `System` namespace. 
+
+<!--more-->
+
 *Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
 The code relevant for this post is in the following files:*
 - Program.cs: entry point for the sample Console Application
 - Exceptions.cs: where all the theory described here is shown.
-
-## Introduction
-So far we've only tested the "happy path". We always trusted that the user's input was going to be correct. We always trasted that casting would give no errors, but, that's not the way to go. 
-
-An `Exception` is an error that happens at runtime and is propagated through the program. If nobody (no part of our code) handles that exception, then the execution of the program breaks. It is a class inside the `System` namespace. 
 
 ## Exception Properties
 - **InnerException**: gets the exception instance that caused the current exception.

@@ -4,14 +4,15 @@ title:  "C# Methods"
 date:   2018-02-08 08:00:00 +0100
 categories: software development
 ---
+A method is a block of code that containes one or more statements. Every executed instruction in C# is run within the context of a method. Methods can be declared in a `class` or a `struct`.
+
+<!--more-->
+
 *Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
 The code relevant for this post is in the following files:*
 - Program.cs: entry point for the sample Console Application
 - Functions.cs: where all the theory described here is shown.
 - FunctionsExercises.cs: where all the exercises at the end of this post are solved.
-
-## Introduction
-A method is a code of block that containes one or more statement. Every executed instruction in C# is run within the context of a method. Methods can be declared in a `class` or a `struct`.
 
 ## Method Signature ##
 To declarel a method we need the following elements in the following order:

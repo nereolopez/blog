@@ -4,23 +4,21 @@ title:  "C# Variables and Types"
 date:   2018-01-30 08:00:00 +0100
 categories: software development
 ---
+Before beginning, let's see what `Types` are and which ones we can find built-in in .Net. 
+
+Programming, information is classified as in real life. When you ask someone her phone number, you don't assume it is text, or that it is a date; in your mind, you see numbers. In the same way, when they ask you your name when you arrive to a hotel, the employee registering the check-in automatically places her hands on the keyboard side where letters are placed, and not in the numeric pad. Same applies for programming, when we want to work with some data or information, we distinguish of which Type it is.
+
+<!--more-->
+
+To be able to work with information that we will need throught our application, we need to store some of it on temporary memory slots in order to work with them, be it for checking it, to operate with it, to transform it, and so on. Variables are the slots where we will place this in-memory information.
+
+Variables have to be typed (this means that we need to specify which type they will represent). There are two kind of types: `Value Types` and `Reference Types`.
+
 *Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
 The code relevant for this post is in the following files:*
 - Program.cs: entry point for the sample Console Application
 - Types.cs: where all the theory described here is shown.
 - TypesExercises.cs: where all the exercises at the end of this post are solved.
-
-## Introduction
-
-Before beginning, let's see what `Types` are and which ones we can find built-in in .Net. 
-
-Programming, information is classified as in real life. When you ask someone her phone number, you don't assume it is text, or that it is a date; in your mind, you see numbers. In the same way, when they ask you your name when you arrive to a hotel, the employee registering the check-in automatically places her hands on the keyboard side where letters are placed, and not in the numeric pad.
-
-Same applies for programming, when we want to work with some data or information, we distinguish of which Type it is.
-
-To be able to work with information that we will need throught our application, we need to store some of it on temporary memory slots in order to work with them, be it for checking it, to operate with it, to transform it, and so on. Variables are the slots where we will place this in-memory information.
-
-Variables have to be typed (this means that we need to specify which type they will represent). There are two kind of types: `Value Types` and `Reference Types`.
 
 ## Value Types
 Variables that are based on Value Types directly contain values. These are the Value Types built-in inside .Net:
