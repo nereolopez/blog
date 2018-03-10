@@ -4,8 +4,7 @@ title:  "C# Series Intro"
 date:   2018-01-30 07:00:00 +0100
 categories: software development
 ---
-<img src="/assets/Csharp7.png" style="width:100%">
-
+<img src="/assets/Csharp7.png" style="width:100%">s
 
 <!--more-->
 Welcome back!
