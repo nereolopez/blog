@@ -4,12 +4,6 @@ title:  "C# File System"
 date:   2018-03-07 07:00:00 +0100
 categories: software development
 ---
-*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
-The code relevant for this post is in the following files:*
-- Program.cs: entry point for the sample Console Application
-- FileSystemSamples.cs: where all the theory described here is shown.
-
-## Introduction
 There are several classes that come with the Framework that allow us to work with the File System:
 - System.IO.FileInfo
 - System.IO.DirectoryInfo
@@ -17,7 +11,14 @@ There are several classes that come with the Framework that allow us to work wit
 - System.IO.Directory
 - System.IO.File
 
+<!--more-->
+
 For this introduction, we will mainly focus on the last two (Directory and File) which represent a file or directory, offer some of their properties, and also methods to open, close, move or delete files and folders.
+
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- FileSystemSamples.cs: where all the theory described here is shown.
 
 ## Initial Considerations
 - Always check user specified path strings. They could be malformed, contain invalid characters or exceed the maximum allowed length.

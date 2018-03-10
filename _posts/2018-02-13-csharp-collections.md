@@ -4,18 +4,19 @@ title:  "C# Collections"
 date:   2018-02-13 07:00:00 +0100
 categories: software development
 ---
-*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
-The code relevant for this post is in the following files:*
-- Program.cs: entry point for the sample Console Application
-- Collections.cs: where all the theory described here is shown.
-- CollectionsExercises.cs: where all the exercises at the end of this post are solved.
-
-## Introduction
 Let's think of Collections as a group of related objects. So far we've seen arrays, which are useful to work with a fixed number of strongly-typed objects.
 
 Collections' size is dynamic, meaning that collections can grow or shrink at any time. Some kind of collections even allows us to assign a key to an object for easier retrieval. 
 
 Keep in mind that a `Collection` is a `Class`, which means that it has to be instantiated using the `new` keyword. But [we will see more on classes later]({{ site.baseurl }}{% post_url 2018-02-20-csharp-classes %}) .
+
+<!--more-->
+
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- Collections.cs: where all the theory described here is shown.
+- CollectionsExercises.cs: where all the exercises at the end of this post are solved.
 
 ## Common Properties and Methods
 Let's not forget that there can be several representations for a collection. Each of them implements the `ICollection<T>` interface, which grants that they will have some common Properties and Methods. Don't worry to much about interfaces now, as [we will see them later]()(not yet available).

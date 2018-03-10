@@ -4,10 +4,7 @@ title:  C# First App (Part II)
 date:   2018-03-07 08:00:00 +0100
 categories: software development
 ---
-*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
-The code relevant for this post is under the [Car Rental Agency folder](https://github.com/nereolopez/csharp-intro/tree/master/CarRentalAgency).*
-
-We will update the Car Rental Agency software management we started few sessions by making the services work with data coming from File Storage. As this time we will be using File Storage, the following classes within the Services folder will be created:
+We will update the Car Rental Agency software management we started few sessions by making the services work with data coming from File Storage. <!--more--> As this time we will be using File Storage, the following classes within the Services folder will be created:
 - CarFileService
 - CustomerFileService
 - RentalFileService
@@ -33,3 +30,6 @@ We will do the following in each of them:
 
     2. Read: Each line represents an entry. Parse the line to the corresponding object and fill its properties while reading.
 4. Change the application in a way that it updates the files instead of the in-memory collections we were using so far(in other words, make sure the old services are not used any longer).
+
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is under the [Car Rental Agency folder](https://github.com/nereolopez/csharp-intro/tree/master/CarRentalAgency).*

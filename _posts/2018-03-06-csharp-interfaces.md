@@ -4,17 +4,17 @@ title:  "C# Interfaces"
 date:   2018-03-06 08:00:00 +0100
 categories: software development
 ---
+An `interface` is like a `class` in the sense that allows us to define properties, methods and events, BUT (and is a big but), unlike a `class`, it does not contain any implementation. Then, who implements an `interface`? Classes implement Interfaces. We can think of an interface as a contract; when a class implements it, it has to contain every aspect of the interface.
+
+Do you remember that multiple inheritance is not supported in C#? Well, luckily it is possible to implement more than one `interface` in a `class`, in that way, we can add to it functionality from different sources.
+
+<!--more-->
+
 *Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
 The code relevant for this post is in the following files:*
 - Program.cs: entry point for the sample Console Application
 - Interfaces.cs: where all the theory described here is shown.
 - InterfaceExercises.cs: where all the exercises at the end of this post are solved.
-
-## Introduction
-
-An `interface` is like a `class` in the sense that allows us to define properties, methods and events, BUT (and is a big but), unlike a `class`, it does not contain any implementation. Then, who implements an `interface`? Classes implement Interfaces. We can think of an interface as a contract; when a class implements it, it has to contain every aspect of the interface.
-
-Do you remember that multiple inheritance is not supported in C#? Well, luckily it is possible to implement more than one `interface` in a `class`, in that way, we can add to it functionality from different sources.
 
 ## Creating an Interface
 

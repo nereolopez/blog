@@ -4,13 +4,6 @@ title:  "C# LINQ"
 date:   2018-02-15 07:00:00 +0100
 categories: software development
 ---
-*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
-The code relevant for this post is in the following files:*
-- Program.cs: entry point for the sample Console Application
-- LinqSamples.cs: where all the theory described here is shown.
-- LinqExercises.cs: where all the exercises at the end of this post are solved.
-
-## Introduction
 What is it? It stands for Language INtegrated Query. Its name is pretty descriptive, so, as you migh have guessed already, it gives us the capacity to use Queries within the language itself, in this case, C#.
 
 There are three parts for a LINQ operation:
@@ -18,9 +11,17 @@ There are three parts for a LINQ operation:
 2. Creating the Query.
 3. Executing the Query.
 
+<!--more-->
+
 <IMG src="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/media/linq_query.png" alt="Complete LINQ Query Operation"/>
 
 *Image from the Microsoft's Official [Documentation](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries#three-parts-of-a-query-operation)*
+
+*Note that this post belongs to the [C# Introduction Series]({{ site.baseurl }}{% post_url 2018-01-30-csharp-series-introduction %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro).
+The code relevant for this post is in the following files:*
+- Program.cs: entry point for the sample Console Application
+- LinqSamples.cs: where all the theory described here is shown.
+- LinqExercises.cs: where all the exercises at the end of this post are solved.
 
 ## LINQ Operation Parts
 
