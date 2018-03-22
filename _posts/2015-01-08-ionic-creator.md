@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Ionic Creator and Visual Studio"
-date:   2015-08-01 07:00:00 +0100
-categories: development
+date:   2015-01-08 07:00:00 +0100
+categories: software development
 ---
 <img src="/assets/ionic/ionic-creator.png" style="width:100%">
 

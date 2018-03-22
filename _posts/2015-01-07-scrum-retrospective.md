@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Scrum Introspective (I mean, Retrospective)"
-date:   2015-07-01 07:00:00 +0100
+date:   2015-01-07 07:00:00 +0100
 categories: agile
 ---
-<img src="/assets/rear-mirror.jpeg" style="width:100%">
+<img src="/assets/agile/rear-mirror.jpeg" style="width:100%">
 
 Restrospective is one of the official meetings that Scrum considers. It is a timeboxed meeting where the Scrum Team gathers together at the end of every Sprint to look back and think about how things went.
 
