@@ -6,7 +6,7 @@ categories: software development
 ---
 There are multiple quality gates that we can add to our software. Having developers and QAs (Quality Assurance engineers) in one team often leads to think that quality is the responsibility of the latest group, which is not true.
 
-Developers can add quality gates to the software too, for instance, through Unit Testing. It consists on writing code that will test the code the developer is working on. Imagine the as a developer you are continuing with the BankAccount class we used as an example when speaking about [Encapsulation]({{ site.baseurl }}{% post_url 2018-02-2-csharp-encapsulation %}). Now you are interested in writing the Withdraw method, which will receive the quantity the user wants to get from the account.
+Developers can add quality gates to the software too, for instance, through Unit Testing. It consists on writing code that will test the code the developer is working on. Imagine the as a developer you are continuing with the BankAccount class we used as an example when speaking about [Encapsulation]({{ site.baseurl }}{% post_url 2018-02-22-csharp-encapsulation %}). Now you are interested in writing the Withdraw method, which will receive the quantity the user wants to get from the account.
 
 <!--more-->
 ```csharp
