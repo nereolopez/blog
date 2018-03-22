@@ -9,7 +9,7 @@ categories: software development
 <!--more-->
 Welcome back!
 
-Are you looking for a C# step by step series? You came to the right place (I hope! ^^’). From time to time I become a teacher during the evening on different topics (Angular, Ionic, UWP, Automation…).  I am making this material available as an Automation course which had a first part of Introduction to Programming on C# goes on. So, at the time you read this it might still be work in progress and some links might be missing. I will complete the series, I promise!
+Are you looking for a C# step by step series? You came to the right place (I hope! ^^’). From time to time I become a teacher during the evening on different topics (Angular, Ionic, UWP, Automation…).  I am making this material available as an Automation course (which had a first part of Introduction to Programming on C#) goes on. So, at the time you read this it might still be work in progress and some links might be missing. I will complete the series, I promise!
 
 The code for the series is hosted on [this repo](https://github.com/nereolopez/csharp-intro).
 
@@ -27,3 +27,11 @@ The code for the series is hosted on [this repo](https://github.com/nereolopez/c
 - [Encapsulation]({{ site.baseurl }}{% post_url 2018-02-22-csharp-encapsulation %})
 - [Inheritance]({{ site.baseurl }}{% post_url 2018-02-22-csharp-inheritance %})
 - [First App (Part I)]({{ site.baseurl }}{% post_url 2018-02-23-csharp-first-app-part-I %})
+- [Interfaces]({{ site.baseurl }}{% post_url 2018-03-06-csharp-interfaces %})
+- [Polymorphism]({{ site.baseurl }}{% post_url 2018-03-06-csharp-polymorphism %})
+- [File System]({{ site.baseurl }}{% post_url 2018-03-07-csharp-file-system %})
+- [First App (Part II)]({{ site.baseurl }}{% post_url 2018-03-07-csharp-first-app-part-ii %})
+- [Async Programming]({{ site.baseurl }}{% post_url 2018-03-13-csharp-async-programming %})
+- [Dependency Injection]({{ site.baseurl }}{% post_url 2018-03-13-csharp-dependency-injection %})
+- [First App (Part III)]({{ site.baseurl }}{% post_url 2018-03-15-csharp-first-app-part-iii %})
+- [Unit Testing Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %})
