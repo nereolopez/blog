@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  C# Unit Testing Intro
-date:   2018-03-20 07:00:00 +0100
+date:   2018-03-20 08:00:00 +0100
 categories: software development
 ---
 There are multiple quality gates that we can add to our software. Having developers and QAs (Quality Assurance engineers) in one team often leads to think that quality is the responsibility of the latest group, which is not true.
@@ -14,13 +14,6 @@ public void Withdraw(decimal amount){
     this.balance -= amount;
 }
 ```
-
-To discuss this topic we will split it into different sessions:
-1. Introduction to Unit Testing concepts and a Walkthrough the tools VS provides us (discussed in this session)
-2. [Writing Unit Tests]() (not yet available).
-3. [Unit Testing objects with Dependencies]() (not yet available)
-4. [Test Driven Development (TDD)]() (not yet available)
-
 
 **Yes, you probably noticed an issue in the implementation above!** Our fellow QAs will probably have written a Test Case for this new feature that checks that it is not possible to withdraw more money than the amount available in the account. Of course they will manually test it, but we as developers can add a Unit Test that checks our function behaves as expected in such scenario.
 
@@ -39,7 +32,7 @@ Visual Studio has Unit Test Project Templates that you can use. As you are guess
 
 Right-click on your solution and go ahead to add a new project (or go ti **File** -> **New** -> **Project**). On the dialog that pops up, select **Test** on the left panel and select **Unit Test Project** (which will use one of the Microsoft Unit Test frameworks).
 
-![image.png](.attachments/image-1abec9f6-ed54-4b69-b6bf-09e628dd0470.png)
+![unit-test-project-creation.png]({{"/assets/vs/unit-test-project-creation.png"}})
 
 In this project you will have one file per Test Class, and you will have one Test Class per Class in your real code you want to test.
 
@@ -60,7 +53,7 @@ For those of you who are using Visual Studio Enterprise you have an awesome feat
 ## Code Coverage Analyzer
 Visual Studio also provides a Code Coverage tool which shows us all our actual project with its classes and methods and the percentage of coverage upon them with our Unit Tests. When this is activated, we can even see in the code the paths inside of it that are covered by any unit tests and those which are not.
 
-![image.png](.attachments/image-f8c77328-161a-42a2-b631-a0300ad5bc19.png)
+![code-coverage-pane.png]({{"/assets/vs/code-coverage-pane.png"}})
 *Image from [Microsoft's Official Documentation](https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics#qa)*
 
 ## Our First Tests
@@ -94,8 +87,9 @@ We have not seen Class Library projects yet in all the sessions so far. A Class 
 3. Add a new Unit Testing project inside the Tests folder. Usually Unit Test projects have the same name as the project they will cover with a ".Tetst" or ".UnitTests" suffix. In our case we want to create a Unit Test project "MyClasses.Tests" for the Library project we just created.
     1. In order to have access to the BankAccount class to test it, we need to add a reference in our Unit Test project to the "MyClasses" Library Project.
 
-        ![image.png](.attachments/image-a635befc-eae7-4d81-90ed-d1e91602d8f5.png)
-        ![image.png](.attachments/image-0119ea7a-aeb9-414a-adf5-d306c8c69f46.png)
+        ![add-reference-to-project-context-menu.png]({{"/assets/vs/add-reference-to-project-context-menu.png"}})
+
+        ![add-reference-to-project-dialog.png]({{"/assets/vs/add-reference-to-project-dialog.png"}})
     2. Rename the File and Class "UnitTest1" created by default to "BankAccountTests"
     3. Create the Test Method for the happy path of the `Withdraw()` method
     4. Create the Test Method to ensure that it is not possible to withdraw more than we have in the account
@@ -140,7 +134,7 @@ Notice the following things:
 
 Let's run them. The easiest is to right-click the code inside a Test Class and click Run Tests (you will see the Test Explorer opening. You should see this as the result:
 
-![image.png](.attachments/image-6773a97f-ffba-4922-87e9-77ab3c999a1c.png)
+![test-explorer.png]({{"/assets/vs/test-explorer.png"}})
 
 # Exercises
 1. Improve the implementation of the `BankAccountWithdraw()` method to make sure it throws the expected exception when trying to get more money than available in the account and make sure the `ExceptionThrownWhenAttemptingToWithdrawMoreThanAvailableTest()` passes.

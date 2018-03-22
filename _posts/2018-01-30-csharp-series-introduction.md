@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C# Series Intro"
+title:  "C# Intro Series"
 date:   2018-01-30 07:00:00 +0100
 categories: software development
 ---
