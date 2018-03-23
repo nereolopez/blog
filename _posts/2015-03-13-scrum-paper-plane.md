@@ -32,11 +32,17 @@ As the initial Grooming took a while, we only had 8 minutes for a final round to
 ## Some Pictures
 
 <img src="/assets/agile/scrum-paper-plane-1.jpg" style="width:100%">
+
 <img src="/assets/agile/scrum-paper-plane-2.jpg" style="width:100%">
+
 <img src="/assets/agile/scrum-paper-plane-3.jpg" style="width:100%">
+
 <img src="/assets/agile/scrum-paper-plane-4.jpg" style="width:100%">
+
 <img src="/assets/agile/scrum-paper-plane-5.jpg" style="width:100%">
+
 <img src="/assets/agile/scrum-paper-plane-6.jpg" style="width:100%">
+
 <img src="/assets/agile/scrum-paper-plane-7.jpg" style="width:100%">
 
 ## Some Insights
