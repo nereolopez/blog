@@ -13,6 +13,6 @@ This is a Unit Test Series that will guide you step by step on how to do Unit Te
 The code for the series is hosted on [this repo](https://github.com/nereolopez/csharp-intro). Below are the posts with the different topics:
 
 1. [Introduction to Unit Testing in C#]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-intro %})
-2. [Writing Unit Tests]() (not yet available).
-3. [Unit Testing objects with Dependencies]() (not yet available)
-4. [Test Driven Development (TDD)]() (not yet available)
+2. [Writing Unit Tests]({{ site.baseurl }}{% post_url 2018-03-22-csharp-unit-test-structure %}).
+3. [Unit Testing objects with Dependencies]({{ site.baseurl }}{% post_url 2018-03-22-csharp-unit-test-with-dependencies %})
+4. [Test Driven Development (TDD)]({{ site.baseurl }}{% post_url 2018-03-23-csharp-tdd %})
