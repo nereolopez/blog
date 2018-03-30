@@ -6,9 +6,10 @@ categories: software development
 ---
 There are multiple quality gates that we can add to our software. Having developers and QAs (Quality Assurance engineers) in one team often leads to think that quality is the responsibility of the latest group, which is not true.
 
-Developers can add quality gates to the software too, for instance, through Unit Testing. It consists on writing code that will test the code the developer is working on. Imagine the as a developer you are continuing with the BankAccount class we used as an example when speaking about [Encapsulation]({{ site.baseurl }}{% post_url 2018-02-22-csharp-encapsulation %}). Now you are interested in writing the Withdraw method, which will receive the quantity the user wants to get from the account.
+Developers can add quality gates to the software too, for instance, through Unit Testing. It consists on writing code that will test the code the developer is working on. <!--more-->Imagine that as a developer you are continuing with the BankAccount class we used as an example when speaking about [Encapsulation]({{ site.baseurl }}{% post_url 2018-02-22-csharp-encapsulation %}). Now you are interested in writing the Withdraw method, which will receive the quantity the user wants to get from the account.
 
-<!--more-->
+*Note that this post belongs to the [C# Unit Test Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro). The relevant code for Unit Testing is in the folders that finish with the **.Tests** suffix. The classes they test are in their pair projects (for instance, the code that is tested in the *MyClasses.Tests* project is inside the *MyClasses* project).
+
 ```csharp
 public void Withdraw(decimal amount){
     this.balance -= amount;

@@ -7,6 +7,7 @@ categories: software development
 We already saw an intro to Unit Testing. Now, we will focus on the structure a Unit Test itself will have and how to Setup a set of tests and Cleanup our Test Class. Theory will be short in order to focus on practicing.
 
 <!--more-->
+*Note that this post belongs to the [C# Unit Test Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro). The relevant code for Unit Testing is in the folders that finish with the **.Tests** suffix. The classes they test are in their pair projects (for instance, the code that is tested in the *MyClasses.Tests* project is inside the *MyClasses* project).
 
 ## Unit Test Structure
 You've probably noticed a pattern in the way we wrote the Unit Tests in [the Unit Test Introduction session]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-intro %}).
