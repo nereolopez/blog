@@ -13,8 +13,8 @@ This is an Automation Intro Series that will guide you step by step on how to do
 The code for the series is hosted on [this repo](https://github.com/nereolopez/selenium-intro). Below are the posts with the different topics:
 
 1. [Introduction to Selenium]({{ site.baseurl }}{% post_url 2018-03-26-selenium-intro %})
-2. [Web Driver and Navigation]({{ site.baseurl }}{% post_url 2018-03-22-csharp-unit-test-structure %}).
-3. [Interacting with Web Elements]() (not yet available)
-4. [XPath]() (not yet available)
+2. [Web Driver and Navigation]({{ site.baseurl }}{% post_url 2018-03-28-selenium-web-driver-navigation %}).
+3. [Interacting with Web Elements]({{ site.baseurl }}{% post_url 2018-04-05-selenium-web-elements %}) 
+4. [XPath]({{ site.baseurl }}{% post_url 2018-04-09-selenium-xpath %})
 5. [PageObject and PageFactory]() (not yet available)
 6. [Practice Exercises]() (not yet available)
