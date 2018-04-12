@@ -16,5 +16,5 @@ The code for the series is hosted on [this repo](https://github.com/nereolopez/s
 2. [Web Driver and Navigation]({{ site.baseurl }}{% post_url 2018-03-28-selenium-web-driver-navigation %}).
 3. [Interacting with Web Elements]({{ site.baseurl }}{% post_url 2018-04-05-selenium-web-elements %}) 
 4. [XPath]({{ site.baseurl }}{% post_url 2018-04-09-selenium-xpath %})
-5. [PageObject and PageFactory]() (not yet available)
+5. [PageObjectModel and PageFactory]({{ site.baseurl }}{% post_url 2018-04-12-selenium-pom-and-page-factory %}) 
 6. [Practice Exercises]() (not yet available)
