@@ -35,3 +35,4 @@ The code for the series is hosted on [this repo](https://github.com/nereolopez/c
 - [Dependency Injection]({{ site.baseurl }}{% post_url 2018-03-13-csharp-dependency-injection %})
 - [First App (Part III)]({{ site.baseurl }}{% post_url 2018-03-15-csharp-first-app-part-iii %})
 - [Unit Testing Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %})
+- [Automation Intro Series]({{ site.baseurl }}{% post_url 2018-03-26-automation-intro-series %})
