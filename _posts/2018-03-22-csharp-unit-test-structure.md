@@ -7,7 +7,7 @@ categories: software development
 We already saw an intro to Unit Testing. Now, we will focus on the structure a Unit Test itself will have and how to Setup a set of tests and Cleanup our Test Class. Theory will be short in order to focus on practicing.
 
 <!--more-->
-*Note that this post belongs to the [C# Unit Test Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro). The relevant code for Unit Testing is in the folders that finish with the **.Tests** suffix. The classes they test are in their pair projects (for instance, the code that is tested in the *MyClasses.Tests* project is inside the *MyClasses* project).
+*Note that this post belongs to the [C# Unit Test Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro). The relevant code for Unit Testing is in the folders that finish with the **.Tests** suffix. The classes they test are in their pair projects (for instance, the code that is tested in the `MyClasses.Tests` project is inside the `MyClasses` project)*.
 
 ## Unit Test Structure
 You've probably noticed a pattern in the way we wrote the Unit Tests in [the Unit Test Introduction session]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-intro %}).
@@ -73,7 +73,7 @@ Let's add a new method on the BankAccount class we already have from the [previo
 ### Car Rental Agency
 Yes, we have the Car Rental Agency application [we started here]({{ site.baseurl }}{% post_url 2018-02-23-csharp-first-app-part-I %}). Keep in mind that we iterated a bit over it on the [File System session]({{ site.baseurl }}{% post_url 2018-03-07-csharp-file-system %}) and [here too]({{ site.baseurl }}{% post_url 2018-03-15-csharp-first-app-part-iii %}) by adding File Storage, Interfaces and Injecting Dependencies (without using a Container).
 
-As you know, so far the application writes some Fake Data to some text files for Cars and Customers. Note that we did not talk yet about [how to deal with dependencies in Unit Tests]()(not yet available), therefore, what we will do now will work, but is not the right approach to do it when it comes to Unit Testing, actually, it will resemble more to Integration Testing. Nevertheless, it will serve as an intro for that next session.
+As you know, so far the application writes some Fake Data to some text files for Cars and Customers. Note that we did not talk yet about [how to deal with dependencies in Unit Tests]({{ site.baseurl }}{% post_url 2018-03-22-csharp-unit-test-with-dependencies %}), therefore, what we will do now will work, but is not the right approach to do it when it comes to Unit Testing, actually, it will resemble more to Integration Testing. Nevertheless, it will serve as an intro for that next session.
 
 1. Create a Unit Test project for the Car Rental Agency and add the dependency to the CarRentalAgency project.
 2. At `Car` level:

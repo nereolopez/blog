@@ -111,7 +111,7 @@ public void Greet(string name){
 ```
 
 ## Async
-We mention it here just to be aware that we can make Functions to run code asynchronously, but we will discuss it later in our [Async Programming session]() (not yet available).
+We mention it here just to be aware that we can make Functions to run code asynchronously, but we will discuss it later in our [Async Programming session]({{ site.baseurl }}{% post_url 2018-03-13-csharp-async-programming %}).
 
 ## Exercises
 1. Create a main function that:

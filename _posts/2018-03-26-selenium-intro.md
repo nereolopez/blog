@@ -37,7 +37,7 @@ public void MyFirstTest()
 }
 ```
 
-Note that the method is decorated with the `[TestMethod]` attribute. Whenever we build our project, Visual Studio will add to the Test Explorer pane all the methods it finds with this attribute. If you are not familiar with the Test Explorer, you can review the [Unit Test series]() (not yet available) were we talked about it.
+Note that the method is decorated with the `[TestMethod]` attribute. Whenever we build our project, Visual Studio will add to the Test Explorer pane all the methods it finds with this attribute. If you are not familiar with the Test Explorer, you can review the [Unit Test series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) were we talked about it.
 
 ## Initializing a Test
 In the same way as with Unit Tests, we can create a method that that will be run before the tests in the current class in order to initialize whatever we might need. In this case, we need to decorate the initialization method with the `[TestInitialize]` attribute.

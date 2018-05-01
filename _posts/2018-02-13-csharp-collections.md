@@ -19,7 +19,7 @@ The code relevant for this post is in the following files:*
 - CollectionsExercises.cs: where all the exercises at the end of this post are solved.
 
 ## Common Properties and Methods
-Let's not forget that there can be several representations for a collection. Each of them implements the `ICollection<T>` interface, which grants that they will have some common Properties and Methods. Don't worry to much about interfaces now, as [we will see them later]()(not yet available).
+Let's not forget that there can be several representations for a collection. Each of them implements the `ICollection<T>` interface, which grants that they will have some common Properties and Methods. Don't worry to much about interfaces now, as [we will see them later]({{ site.baseurl }}{% post_url 2018-03-06-csharp-interfaces %}).
 
 - **Count**: gets the number of elements contained in the list.
 - **Add()**: adds the given element to the collection.

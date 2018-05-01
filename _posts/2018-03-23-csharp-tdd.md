@@ -9,9 +9,9 @@ Test Driven Development is, shortly said, a technique that consists in writing t
 
 <!--more-->
 
-*Note that this post belongs to the [C# Unit Test Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro). The relevant code for Unit Testing is in the folders that finish with the **.Tests** suffix. The classes they test are in their pair projects (for instance, the code that is tested in the *MyClasses.Tests* project is inside the *MyClasses* project).
+*Note that this post belongs to the [C# Unit Test Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro). The relevant code for Unit Testing is in the folders that finish with the **.Tests** suffix. The classes they test are in their pair projects (for instance, the code that is tested in the `MyClasses.Tests` project is inside the `MyClasses` project)*.
 
-Yes, I said small for one reason. This technique is based on very small iterations. Let's think of a function we did in the session about [Unit Tests Setup and Structure]() (not yet available). There, we wrote a method called `Divide(double a, double b)` inside the `PureFunctions` class. 
+Yes, I said small for one reason. This technique is based on very small iterations. Let's think of a function we did in the session about [Unit Tests Setup and Structure]({{ site.baseurl }}{% post_url 2018-03-22-csharp-unit-test-structure %}). There, we wrote a method called `Divide(double a, double b)` inside the `PureFunctions` class. 
 Our first test case will be that the method returns the result. Therefore, if I pass it a 4 and a 2, it should give me back a 2. Clear. Then, we added a second test case, which was to avoid errors by trying to divide by 0. We did not use TDD, so let's see how it would have looked like if we had used it. We would have started with our actual code in the following state:
 
 ```csharp

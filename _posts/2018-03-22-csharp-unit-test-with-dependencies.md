@@ -10,7 +10,7 @@ We will use **Test Doubles**.  These are objects that pretend to be a real objec
 
 <!--more-->
 
-*Note that this post belongs to the [C# Unit Test Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro). The relevant code for Unit Testing is in the folders that finish with the **.Tests** suffix. The classes they test are in their pair projects (for instance, the code that is tested in the *MyClasses.Tests* project is inside the *MyClasses* project).
+*Note that this post belongs to the [C# Unit Test Series]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) and that the code is hosted in this [Github repo](https://github.com/nereolopez/csharp-intro). The relevant code for Unit Testing is in the folders that finish with the **.Tests** suffix. The classes they test are in their pair projects (for instance, the code that is tested in the `MyClasses.Tests` project is inside the `MyClasses` project)*.
 
 There is a lot of confusion and sometimes people refers to them as if they were the same, but let's put this simple statement:
 
@@ -144,7 +144,7 @@ public class FinancialService : IFinancialService
 }
 ```
 
-Note that it is using an enum called FinancialStatus (you will find it in the complete code [in the repo]() (not yet available)).
+Note that it is using an enum called FinancialStatus (you will find it in the complete code in the [repo](https://github.com/nereolopez/csharp-intro/blob/master/MyClasses/FinancialService.cs).
 
 Our `BankAccount` class will now have a dependency on the `FinancialService` class. Therefore, we need to modify it. For that, we will create two constructors (one without dependency injection not to break our old tests - you would never do this in a real project - and another one for our new code that we will develop with a design oriented to Dependency Injection). below are only the lines that will be added to the `BankAccount` class, which are the field containing the dependency, the two constructors, and a new method that we will have to test:
 

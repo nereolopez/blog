@@ -49,7 +49,7 @@ Well, know we are injecting the dependency in the `constructor`. In this way, we
 ## Dependency Injection Containers
 There are several DI Containers out there in the wild that you can use (like [Unity](https://msdn.microsoft.com/en-us/library/dn223671(v=pandp.30).aspx), [Ninject](http://www.ninject.org/), [Autofac](https://autofac.org/)...). Nice, but, what are they for? Well, to put it simple, we will delegate to them by configuring the Container the instantiation of the dependencies. We will not go into details on this in this series.
 
-Just the final words on DI is that, most likely, you will be (and you should) injecting dependencies in the form of an Interface (you'll understand one of the reasons on the session about [Unit Testing]() (not yet available) for instance). Using an Interface the code above would look as follows:
+Just the final words on DI is that, most likely, you will be (and you should) injecting dependencies in the form of an Interface (you'll understand one of the reasons on the series about [Unit Testing]({{ site.baseurl }}{% post_url 2018-03-20-csharp-unit-test-series %}) for instance). Using an Interface the code above would look as follows:
 
 ```csharp
 public class BusinessLogic {

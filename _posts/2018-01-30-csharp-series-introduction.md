@@ -13,9 +13,9 @@ Are you looking for a C# step by step series? You came to the right place (I hop
 
 The code for the series is hosted on [this repo](https://github.com/nereolopez/csharp-intro).
 
-- Setting up the environment
-- Visual Studio Walkthrough
-- Source Control with Git
+- Setting up the environment (coming soon)
+- Visual Studio Walkthrough (coming soon)
+- Source Control with Git (coming soon)
 - [Variables and Types]({{ site.baseurl }}{% post_url 2018-01-30-csharp-variables-and-types %})
 - [Control Flow]({{ site.baseurl }}{% post_url 2018-01-31-csharp-control-flow %})
 - [Arrays]({{ site.baseurl }}{% post_url 2018-02-06-csharp-arrays %})
