@@ -4,7 +4,7 @@ title:  C# First App (Part III)
 date:   2018-03-15 07:00:00 +0100
 categories: software development
 ---
-In the previous iteration of our Car Rental Agency software management we added new services that allowed us to store and get data using the File System. Now, we will work on implementing Interfaces and adding Dependency Injection (the concept itself, but we will not set up and use any Dependency Injection Container).
+In the [previous iteration of our Car Rental Agency]({{ site.baseurl }}{% post_url 2018-03-07-csharp-first-app-part-ii %}) software management we added new services that allowed us to store and get data using the File System. Now, we will work on implementing Interfaces and adding Dependency Injection (the concept itself, but we will not set up and use any Dependency Injection Container).
 <!--more-->
 
 ## Interfaces

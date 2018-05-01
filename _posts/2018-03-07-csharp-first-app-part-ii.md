@@ -4,7 +4,7 @@ title:  C# First App (Part II)
 date:   2018-03-07 08:00:00 +0100
 categories: software development
 ---
-We will update the Car Rental Agency software management we started few sessions by making the services work with data coming from File Storage. <!--more--> As this time we will be using File Storage, the following classes within the Services folder will be created:
+We will update the Car Rental Agency software management we started [few sessions ago]({{ site.baseurl }}{% post_url 2018-02-23-csharp-first-app-part-I %}) by making the services work with data coming from File Storage. <!--more--> As this time we will be using File Storage, the following classes within the Services folder will be created:
 - CarFileService
 - CustomerFileService
 - RentalFileService
